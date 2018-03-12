@@ -1,0 +1,35 @@
+{
+  "name": "project_test",
+  "version": "1.0.0",
+  "description": "project test",
+  "main": "app.js",
+  "scripts": {
+    "test": "project test",
+    "build": "babel src -d lib"
+  },
+  "author": "loint",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.6",
+    "amqplib": "^0.5.1",
+    "async": "^2.4.0",
+    "excel-export": "^0.5.1",
+    "express": "^4.15.2",
+    "kue": "^0.11.5",
+    "moment": "^2.18.1",
+    "mongoose": "^4.13.7",
+    "node-mailwizz-sdk": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^6.2.3",
+    "pg-hstore": "^2.3.2",
+    "pg-native": "^1.10.1",
+    "redis": "^2.7.1",
+    "sequelize": "^3.30.4",
+    "sequelize-cli": "^2.7.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.0"
+  }
+}
